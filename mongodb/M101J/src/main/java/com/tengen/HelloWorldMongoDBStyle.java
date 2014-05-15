@@ -11,7 +11,6 @@ import com.mongodb.ServerAddress;
 public class HelloWorldMongoDBStyle {
 
 	public static void main(String[] args) throws UnknownHostException {
-		// TODO Auto-generated method stub
 		MongoClient client = new MongoClient(new ServerAddress("localhost", 27017));
 		
 		DB database = client.getDB("course");
